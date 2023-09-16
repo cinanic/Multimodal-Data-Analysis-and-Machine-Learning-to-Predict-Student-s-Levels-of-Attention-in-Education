@@ -34,10 +34,6 @@ Use of the EMDAT library to generate the summative eye tracking features
 - **Input** (in open face data): data generated from OpenFace library (p1.csv to p25.csv)
 - **Output:** openface10.tsv to openface30.tsv for each window size
 
-- To run: `y gaze angle.ipynb` : to see gaze angle is below, up or on the screen 
-- **Input** (in open face data): data generated from OpenFace library (p1.csv to p25.csv); the raw eye tracking data
-- **Output:** (in tobii with eye angle):Participant1.tsv to Participant25.tsv for each participant
-
 ### [`emdat and openface clean up/`](emdat and openface clean up/)
 
 - To run: `Emdat.ipynb` : To remove unwanted columns and rows from eytracker data for and keep all emdat features and each feature seprately 
